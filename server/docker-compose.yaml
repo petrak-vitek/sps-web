@@ -1,1 +1,11 @@
+version: "2.4"
+services:
+  web:
+    image: nginx
+    
+    volumes:
+      - ./volumes/nginx.conf:/usr/share/nginx/html
+      - ../web:/usr/share/nginx/html
+    ports:
+      - "80:80"
 
