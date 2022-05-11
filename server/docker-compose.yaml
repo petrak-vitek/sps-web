@@ -4,8 +4,8 @@ services:
     image: nginx
     
     volumes:
-      - ./volumes/nginx.conf:/usr/share/nginx/html
-      - ../web:/usr/share/nginx/html
+      - ./volumes/nginx.conf:/usr/share/nginx/html:ro
+      - ../web:/usr/share/nginx/html:ro
     ports:
       - "80:80"
 
