@@ -1,5 +1,5 @@
 # sps-web
-webové stránky vytvořené při výuce na sps doctupné na https://sps-web.vejtek.cz
+webové stránky vytvořené při výuce na sps dostupné na https://sps-web.vejtek.cz
 
 automatické stahování z githubu řeší cron job:
 ```
