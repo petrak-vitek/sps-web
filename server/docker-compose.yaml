@@ -9,4 +9,8 @@ services:
       - ../web:/usr/share/nginx/html:ro
     ports:
       - "80:80"
+      
+    php:    
+      image: php:7.0-fpm  
+      container_name: php-container
 
