@@ -12,5 +12,7 @@ services:
       
   php:    
     image: php:7.0-fpm  
-    container_name: php-container
-
+    container_name: php
+    restart: unless-stopped
+    volumes:
+      - ./volumes/nginx.conf:/etc/nginx/nginx.conf:ro
