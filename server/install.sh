@@ -10,4 +10,4 @@ echo "instaling docker cokmpose"
 sudo apt install -y docker-compose
 
 echo "starting server stack"
-docker-compose -f ./docker-compose.yaml up -d --remove-orphans
+docker-compose -f ~/sps-web/server/docker-compose.yaml up -d --remove-orphans
